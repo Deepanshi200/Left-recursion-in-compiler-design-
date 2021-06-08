@@ -12,7 +12,7 @@ python3 main.py
 
 ## Output Screenshot
 
-![].(output.output.png)
+![](output.output.png)
 
 ## Sample input (from screenshot)
 ```python3

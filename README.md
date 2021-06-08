@@ -1,4 +1,4 @@
-#Removal of  Left-recursion-in-compiler-design-
+# Removal of  Left-recursion-in-compiler-design-
 Program to find left recursion in compiler design 
 Please use | symbol to separate the production rules
 The production rules separated with "|" are considered as one whole so please enter the number of productions according

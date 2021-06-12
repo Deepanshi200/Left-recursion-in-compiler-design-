@@ -1,9 +1,13 @@
+import os
+rows, columns = os.popen('stty size', 'r').read().split()
+
+columns = int(columns)
 t = int(input("Enter the NUMBER productions "))
 pro=[]
 remm=[]
 for tt in range(t):
     pro.append(input())
-print("****#######*******************************")
+print("_"*columns)
 for trr in pro:
     rr=trr
     #rr=input()
@@ -39,7 +43,8 @@ for trr in pro:
         
         
         print(" ")
-        print("****#######*******************************")
+print("_"*columns)
+        #print("****#######*******************************")
 print("FINAL GRAMMAR")
 for k in remm:
     print(k)
